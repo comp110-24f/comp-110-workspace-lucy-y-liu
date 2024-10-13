@@ -38,4 +38,17 @@ grocery_list: list[str] = ["banannas", "milk"]
 
 grocery_list.append("milk")
 
-print(grocery_list)
+
+"""10/7 for..in.. loop practice"""
+
+pets: list[str] = ["Jimmy", "James", "J-dawg"]
+
+
+for goodboys in pets:
+    #print("Good boy, " + goodboys + "!")
+
+names: list[str] = ["Alyssa", "Janet", "Vrinda"]
+
+for name in range(0, len(names)):
+   # print(str(name) + ": " + names[name])
+
